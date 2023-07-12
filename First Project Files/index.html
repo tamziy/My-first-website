@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-
     <section>
       <nav>
         <img
-          class="flag-image"
+          class="flag-image-top"
           src="./assets/Flag_of_South_Vietnam.svg.png"
           alt="A flag of South Vietnam"
         />
@@ -25,20 +24,24 @@
 
       <header>
         <div class="row">
-        <div>
-          <h1 class="welcome-message">
-            Vietnamese Student Association
-          </h1>
-          <h1 class="welcome-message">at the University of Chicago at Illinois</h1>
-          <p class="subheader">
-            Where students can connect and meet others who are interested in
-            Vietnamese Culture
-          </p>
-          <button>Join Us!</button>
-        </div>
-        <figure>
-          <img class="picture-size" src="./assets/vsa2.jpg" alt="Group of cute abgs" />
-        </figure>
+          <div>
+            <h1 class="welcome-message">Vietnamese Student Association</h1>
+            <h1 class="welcome-message">
+              at the University of Chicago at Illinois
+            </h1>
+            <p class="subheader">
+              Where students can connect and meet others who are interested in
+              Vietnamese Culture
+            </p>
+            <button>Join Us!</button>
+          </div>
+          <figure>
+            <img
+              class="picture-size"
+              src="./assets/vsa2.jpg"
+              alt="Group of cute abgs"
+            />
+          </figure>
         </div>
       </header>
     </section>
@@ -46,45 +49,55 @@
     <main>
       <section id="about">
         <h2>About</h2>
-        <div class="section__description" >
-          <div class="section__description--wrapper">
-          <p class="section__description--para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-            debitis rerum quo quam accusantium repellendus numquam! Quis sint
-            natus laudantium asperiores. Quibusdam beatae dolorum aliquid ex
-            natus molestias. Ipsam, odit.
-          </p>
-          <p class="section__description--para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-            debitis rerum quo quam accusantium repellendus numquam! Quis sint
-            natus laudantium asperiores. Quibusdam beatae dolorum aliquid ex
-            natus molestias. Ipsam, odit.
-          </p>
+        <div class="row">
+          <div class="section__description">
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                debitis rerum quo quam accusantium repellendus numquam! Quis
+                sint natus laudantium asperiores. Quibusdam beatae dolorum
+                aliquid ex natus molestias. Ipsam, odit.
+              </p>
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                debitis rerum quo quam accusantium repellendus numquam! Quis
+                sint natus laudantium asperiores. Quibusdam beatae dolorum
+                aliquid ex natus molestias. Ipsam, odit.
+              </p>
+            </div>
+            <figure class="about__image--wrapper">
+              <img src="./assets/vsa1.jpg" alt="Another group of cute abgs" />
+            </figure>
+          </div>
         </div>
-        <figure>
-          <img class="about__image--wrapper" src="./assets/vsa1.jpg" alt="Another group of cute abgs">
-        </figure>
-      </div>
       </section>
 
       <section id="discord">
         <h2>Discord</h2>
-        <figure>
-          <img class="picture-size" src="./assets/Discord-Logo.png" alt="Discord Logo">
-        </figure>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-            debitis rerum quo quam accusantium repellendus numquam! Quis sint
-            natus laudantium asperiores. Quibusdam beatae dolorum aliquid ex
-            natus molestias. Ipsam, odit.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-            debitis rerum quo quam accusantium repellendus numquam! Quis sint
-            natus laudantium asperiores. Quibusdam beatae dolorum aliquid ex
-            natus molestias. Ipsam, odit.
-          </p>
+        <div class="row">
+          <div class="section__description">
+            <figure>
+              <img
+                class="picture-size"
+                src="./assets/Discord-Logo.png"
+                alt="Discord Logo"
+              />
+            </figure>
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                debitis rerum quo quam accusantium repellendus numquam! Quis
+                sint natus laudantium asperiores. Quibusdam beatae dolorum
+                aliquid ex natus molestias. Ipsam, odit.
+              </p>
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                debitis rerum quo quam accusantium repellendus numquam! Quis
+                sint natus laudantium asperiores. Quibusdam beatae dolorum
+                aliquid ex natus molestias. Ipsam, odit.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -92,21 +105,33 @@
         <h2>Contact</h2>
         <form action="">
           <span>Email</span>
-          <input type="text" placeholder="janenguyen@gmail.com">
+          <input type="email" placeholder="janenguyen@gmail.com" />
           <span>Message</span>
-          <textarea type="text" placeholder="I think x-suggustion would be a great addition to VSA."></textarea>
+          <textarea
+            type="text"
+            placeholder="I think x-suggustion would be a great addition to VSA."
+          ></textarea>
+          <button>Contact Us!</button>
         </form>
       </section>
     </main>
+
     <footer>
-      <img class="flag-image" src="./assets/Flag_of_South_Vietnam.svg.png" alt="">
-      <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#Contact">Contact</a>
-        <a href="">Meetings</a>
+      <div class="footer__links">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#Contact">Contact</a>
+        <a class="footer__link" href="">Meetings</a>
       </div>
-      <p>Vietnamese Student Association at the University of Illinois at Chicago</p>
+      <p class="footer__para">
+        Copyright@ Vietnamese Student Association at the University of Illinois
+        at Chicago
+      </p>
+      <img
+        class="flag-image-bottom"
+        src="./assets/Flag_of_South_Vietnam.svg.png"
+        alt=""
+      />
     </footer>
   </body>
 </html>

@@ -57,8 +57,9 @@ a {
     font-weight: 700    ;
 }
 
-.flag-image {
+.flag-image-top {
     height: 70px;
+    width: auto;
 }
 
 .picture-size {
@@ -68,18 +69,27 @@ a {
 .row {
     width: 100%;
     max-width: 1300px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+#about, 
+#discord,
+#contact,
+#footer {
+    padding: 48px 0;
+}
 
+/*
 
+ABOUT
+
+*/
 
 #about {
-    padding: 48px 0;
     background-color: #fcff82;
-    
 }
 
 h2 {
@@ -117,4 +127,68 @@ img {
 .about__image--wrapper,
 .section__description--wrapper {
     box-sizing: border-box;
+}
+
+/*
+
+DISCORD
+
+*/
+
+#discord {
+     background-color: #83cee0;
+}
+
+/*
+
+CONTACT
+
+*/
+
+#contact {
+    background-color: #cca8e9;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+input,
+textarea {
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
+/*
+
+FOOTER
+
+*/
+
+footer {
+    background-color: #fcff82;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__links {
+    margin: 24px;
+}
+
+.footer__link {
+    padding: 0 16px;
+}
+
+.footer__para {
+    margin: 0 0 24px 0;
+}
+
+.flag-image-bottom {
+    height: 70px;
 }
