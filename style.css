@@ -192,3 +192,17 @@ footer {
 .flag-image-bottom {
     height: 70px;
 }
+
+/* SMALL PHONES, TABLETS, LARGE PHONES */
+
+@media (max-width: 728px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .home__description {
+        margin-top: 60px;
+        margin-bottom: 48px;
+    }
+
+}
